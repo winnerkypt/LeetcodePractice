@@ -65,5 +65,6 @@ func removeDuplicates(nums []int) int {
 			nums[index] = nums[i]
 		}
 	}
+	fmt.Println(nums)
 	return index + 1
 }
